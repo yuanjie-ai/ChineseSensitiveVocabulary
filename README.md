@@ -3,7 +3,7 @@
 
 ```python
 # pip install mindata
-from mindata import GoldenDataset
+from minidata import GoldenDataset
 
 NAME = '敏感词'
 print(GoldenDataset(NAME).dataframe.head(10))
